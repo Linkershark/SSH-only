@@ -246,7 +246,7 @@ echo -e "============================================="
 sleep 2
 cd /usr/bin
 wget -O mssh "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSHOVPN/mssh.sh"
-wget -O menu "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V1/menu.sh"
+wget -O menu "https://raw.githubusercontent.com/jinGGo007/LIFETIME/main/menu.sh"
 wget -O add-host "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V1/add-host.sh"
 wget -O usernew "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/usernew.sh"
 wget -O trial "https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/MENU/trial.sh"
