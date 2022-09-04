@@ -94,8 +94,9 @@ clear
 echo -e "============================================="
 echo -e " ${green} INSTALLING SHADOWSOCKS R${NC} "
 echo -e "============================================="
+echo -e "SKIP. . ."
 sleep 2
-wget https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSR/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
+#wget https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SSR/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
 sleep 2
 clear
 
@@ -104,7 +105,8 @@ echo -e "============================================="
 echo -e " ${green} INSTALLING SHADOWSOCKS OBFS${NC} "
 echo -e "============================================="
 sleep 2
-wget https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SS/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
+echo -e "SKIP. . ."
+#wget https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/SS/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 sleep 2
 clear
 
@@ -113,7 +115,8 @@ echo -e "============================================="
 echo -e " ${green} INSTALLING WIREGUARD${NC} "
 echo -e "============================================="
 sleep 2
-wget https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/WG/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
+echo -e "SKIP. . ."
+#wget https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/WG/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 sleep 2
 clear
 
@@ -131,7 +134,8 @@ echo -e "============================================="
 echo -e " ${green} INSTALLING XRAY${NC} "
 echo -e "============================================="
 sleep 2
-wget https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V1/install-xray.sh && chmod +x install-xray.sh && screen -S v2ray ./install-xray.sh
+echo -e "SKIP. . ."
+#wget https://raw.githubusercontent.com/jinGGo007/PRIVATE/main/V1/install-xray.sh && chmod +x install-xray.sh && screen -S v2ray ./install-xray.sh
 sleep 2
 clear
 
@@ -145,11 +149,11 @@ sleep 2
 clear
 
 rm -f /root/ssh-vpn.sh
-rm -f /root/wg.sh
-rm -f /root/ss.sh
-rm -f /root/ssr.sh
+#rm -f /root/wg.sh
+#rm -f /root/ss.sh
+#rm -f /root/ssr.sh
 rm -f /root/ins-vt.sh
-rm -f /root/install-xray.sh
+#rm -f /root/install-xray.sh
 rm -f /root/ohp.sh
 
 #install resolv
